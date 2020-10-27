@@ -1,0 +1,27 @@
+.banner {
+  width: 100%;
+  margin-top: 10vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30vh 0;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://static.wixstatic.com/media/4605ab_170ed9e4ae9841beabf33acde07af9cf~mv2.jpg);
+}
+
+.content {
+margin-left: 30vw;
+padding: 16px;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+  font-size: 40px;
+  font-weight: bold;
+}
+.banner p {
+  margin-top: 16px;
+  font-size: 24px;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+}
