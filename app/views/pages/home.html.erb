@@ -1,0 +1,11 @@
+<div class="banner">
+   <div class="content">
+      <h1>Bem-vindo ao DB Manager!</h1>
+      <p>Controle seu Banco de Dados com simplicidade e facilidade!</p>
+      <% if current_user %>
+        <%= link_to "Log In", courses_path, class: "btn btn-banner" %>
+      <% else %>
+        <%= link_to "Sign In", user_session_path, class: "btn btn-banner" %>
+      <% end %>    
+   </div>
+</div>
