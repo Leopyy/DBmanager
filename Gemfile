@@ -25,6 +25,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'devise'
 # use 'pundit' for authorization
 gem 'pundit'
+#use 'simple_form' for the forms
+gem 'simple_form'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 
